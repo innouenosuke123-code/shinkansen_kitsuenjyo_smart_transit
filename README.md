@@ -1,0 +1,2 @@
+# shinkansen_kitsuenjyo_smart_transit
+新幹線乗車前後の喫煙を最も効率的に行える号車の検索および喫煙所位置案内をするアプリ
