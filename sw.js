@@ -1,5 +1,5 @@
 // アプリ本体はキャッシュ優先、喫煙所データはネットワーク優先（オフライン時はキャッシュ）
-const CACHE = "kitsuen-navi-v2";
+const CACHE = "kitsuen-navi-v3";
 const SHELL = [
   "./",
   "index.html",

@@ -1,11 +1,7 @@
 {
   "meta": {
     "updatedAt": "2026-09-18",
-    "carNumbering": "16両・8両編成とも1号車が下り方（博多・鹿児島中央方）、最後尾の号車が上り方（東京・新大阪方）。",
-    "directions": {
-      "down": "下り（博多・鹿児島中央方面）",
-      "up": "上り（新大阪・東京方面）"
-    }
+    "carNumbering": "東海道・山陽・九州新幹線は1号車が下り方（博多・鹿児島中央方）。東北・北海道・秋田・山形・上越・北陸新幹線は1号車（こまち・つばさは11号車）が東京方。"
   },
   "sources": {
     "jrc-2026": {
@@ -85,19 +81,752 @@
       "publisher": "SRCトラベル・サポート",
       "url": "https://shinkansenkenkyu.com/non-reserved-tokaido-nozomi/",
       "official": false
+    },
+    "jreast-faq-smoking": {
+      "title": "駅の禁煙、喫煙について教えてください。（2024年8月15日更新）",
+      "publisher": "JR東日本 よくいただくお問い合わせ",
+      "url": "https://jreastfaq.jreast.co.jp/faq/show/1388?category_id=22&site_domain=default",
+      "official": true
+    },
+    "jremedia-tokyo": {
+      "title": "東京駅の喫煙所21選（2025年12月5日更新）",
+      "publisher": "JREメディア（JR東日本）",
+      "url": "https://media.jreast.co.jp/articles/652",
+      "official": true
+    },
+    "jremedia-ueno": {
+      "title": "上野駅周辺の喫煙所を紹介！（2024年11月22日更新）",
+      "publisher": "JREメディア（JR東日本）",
+      "url": "https://media.jreast.co.jp/articles/693",
+      "official": true
+    },
+    "jremedia-morioka": {
+      "title": "JR盛岡駅ホーム・駅周辺の喫煙所を紹介【2026年最新】（2026年8月28日更新）",
+      "publisher": "JREメディア（JR東日本 盛岡事業本部）",
+      "url": "https://media.jreast.co.jp/articles/5709",
+      "official": true
+    },
+    "jremedia-akita": {
+      "title": "秋田駅から1分で行ける！駅周辺の喫煙所2選（2024年11月29日更新）",
+      "publisher": "JREメディア（JR東日本 秋田統括センター）",
+      "url": "https://media.jreast.co.jp/articles/623",
+      "official": true
+    },
+    "jrh-nosmoking": {
+      "title": "駅構内・車内での禁煙にご協力をお願いいたします",
+      "publisher": "JR北海道",
+      "url": "https://www.jrhokkaido.co.jp/network/manner/pdf/B-20.pdf",
+      "official": true
+    },
+    "tokyogarden-tokyo": {
+      "title": "東京駅 新幹線ホームの喫煙所はどこ？（2026年2月5日更新）",
+      "publisher": "Tokyo Garden",
+      "url": "https://tokyo-garden.jpn.org/life/smoking-area/tokyo-station-smoking-room/",
+      "official": false
+    },
+    "tokyogarden-omiya": {
+      "title": "大宮駅新幹線ホーム 喫煙所完全ガイド（2026年1月20日更新）",
+      "publisher": "Tokyo Garden",
+      "url": "https://tokyo-garden.jpn.org/life/smoking-area/omiya-station-shinkansen-smoking-area/",
+      "official": false
+    },
+    "tokyogarden-sendai": {
+      "title": "仙台駅 東北新幹線ホームの喫煙所はどこ？（2026年1月20日更新・駅の「列車編成のご案内」サイネージの写真あり）",
+      "publisher": "Tokyo Garden",
+      "url": "https://tokyo-garden.jpn.org/life/smoking-area/sendai-station-smoking-room/",
+      "official": false
+    },
+    "ishikawa-kanazawa": {
+      "title": "金沢駅新幹線ホームの喫煙所最新版ガイド",
+      "publisher": "石川県データベース",
+      "url": "https://ishikawa-inshokuouen.jp/archives/93",
+      "official": false
+    },
+    "jreast-e5": {
+      "title": "E5系 はやぶさ／はやて／やまびこ／なすの",
+      "publisher": "JR東日本",
+      "url": "https://www.jreast.co.jp/train/shinkan/e5.html",
+      "official": true
+    },
+    "jreast-e6": {
+      "title": "E6系 こまち／はやぶさ／やまびこ／なすの",
+      "publisher": "JR東日本",
+      "url": "https://www.jreast.co.jp/train/shinkan/e6.html",
+      "official": true
+    },
+    "jreast-e2": {
+      "title": "E2系 やまびこ／なすの",
+      "publisher": "JR東日本",
+      "url": "https://www.jreast.co.jp/train/shinkan/e2.html",
+      "official": true
+    },
+    "jreast-e8": {
+      "title": "E8系 つばさ／なすの",
+      "publisher": "JR東日本",
+      "url": "https://www.jreast.co.jp/train/shinkan/e8.html",
+      "official": true
+    },
+    "jreast-e3": {
+      "title": "E3系 つばさ／なすの",
+      "publisher": "JR東日本",
+      "url": "https://www.jreast.co.jp/train/shinkan/e3.html",
+      "official": true
+    },
+    "jreast-e7": {
+      "title": "E7系 かがやき／はくたか／あさま／とき／たにがわ",
+      "publisher": "JR東日本",
+      "url": "https://www.jreast.co.jp/train/shinkan/e7.html",
+      "official": true
+    },
+    "jreast-fukushima": {
+      "title": "福島駅でのお乗り換えについて（やまびこ号 編成別停止位置）",
+      "publisher": "JR東日本",
+      "url": "https://www.jreast.co.jp/train_info/pdf/file/%E7%A6%8F%E5%B3%B6%E9%A7%85%E4%B9%97%E6%8F%9B%E3%81%88.pdf",
+      "official": true
+    },
+    "srctravel-tsurugi": {
+      "title": "【自由席は何号車？】北陸新幹線『つるぎ』全列車一覧表（2026年版）",
+      "publisher": "SRCトラベル・サポート",
+      "url": "https://shinkansenkenkyu.com/non-reserved-tsurugi/",
+      "official": false
+    },
+    "wadattsu-tokyo-east": {
+      "title": "【JR東京駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/tokyo-tohokushinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-ueno": {
+      "title": "【JR上野駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/ueno-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-omiya": {
+      "title": "【JR大宮駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/omiya-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-oyama": {
+      "title": "【JR小山駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/oyama-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-utsunomiya": {
+      "title": "【JR宇都宮駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/utsunomiya-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-nasushiobara": {
+      "title": "【JR那須塩原駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/nasushiobara-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-shinshirakawa": {
+      "title": "【JR新白河駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/shinshirakawa-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-koriyama": {
+      "title": "【JR郡山駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/koriyama-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-fukushima": {
+      "title": "【JR福島駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/fukushima-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-shiroishizao": {
+      "title": "【JR白石蔵王駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/shiroishizao-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-sendai": {
+      "title": "【JR仙台駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/sendai-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-furukawa": {
+      "title": "【JR古川駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/furukawa-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-kurikomakogen": {
+      "title": "【JRくりこま高原駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/kurikomakogen-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-ichinoseki": {
+      "title": "【JR一ノ関駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/ichinoseki-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-mizusawaesashi": {
+      "title": "【JR水沢江刺駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/mizusawaesashi-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-kitakami": {
+      "title": "【JR北上駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/kitakami-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-shinhanamaki": {
+      "title": "【JR新花巻駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/shinhanamaki-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-morioka": {
+      "title": "【JR盛岡駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/morioka-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-ninohe": {
+      "title": "【JR二戸駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/ninohe-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-hachinohe": {
+      "title": "【JR八戸駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/hachinohe-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-shinaomori": {
+      "title": "【JR新青森駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/shinaomori-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-shinhakodatehokuto": {
+      "title": "【JR新函館北斗駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/shinhakodatehokuto-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-kumagaya": {
+      "title": "【JR熊谷駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/kumagaya-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-honjowaseda": {
+      "title": "【JR本庄早稲田駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/honjowaseda-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-takasaki": {
+      "title": "【JR高崎駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/takasaki-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-echigoyuzawa": {
+      "title": "【JR越後湯沢駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/echigoyuzawa-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-urasa": {
+      "title": "【JR浦佐駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/urasa-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-tsubamesanjo": {
+      "title": "【JR燕三条駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/tsubamesanjo-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-niigata": {
+      "title": "【JR新潟駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/niigata-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-karuizawa": {
+      "title": "【JR軽井沢駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/karuizawa-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-sakudaira": {
+      "title": "【JR佐久平駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/sakudaira-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-ueda": {
+      "title": "【JR上田駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/ueda-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-nagano": {
+      "title": "【JR長野駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/nagano-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-iiyama": {
+      "title": "【JR飯山駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/iiyama-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-joetsumyoko": {
+      "title": "【JR上越妙高駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/joetsumyoko-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-itoigawa": {
+      "title": "【JR糸魚川駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/itoigawa-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-kurobeunazukionsen": {
+      "title": "【JR黒部宇奈月温泉駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/kurobeunazukionsen-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-toyama": {
+      "title": "【JR富山駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/toyama-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-shintakaoka": {
+      "title": "【JR新高岡駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/shintakaoka-shinkansenhome-info/",
+      "official": false
+    },
+    "wadattsu-kanazawa": {
+      "title": "【JR金沢駅】新幹線ホームの階段・エスカレーター・エレベーターに近い停車位置（2026年更新）",
+      "publisher": "わだっつ「電車の停車位置」",
+      "url": "https://wadattsu261.com/content/kanazawa-shinkansenhome-info/",
+      "official": false
     }
   },
+  "routes": {
+    "tokaido-sanyo-kyushu": {
+      "name": "東海道・山陽・九州新幹線",
+      "stations": [
+        "tokyo",
+        "shinagawa",
+        "shinyokohama",
+        "odawara",
+        "atami",
+        "mishima",
+        "shinfuji",
+        "shizuoka",
+        "kakegawa",
+        "hamamatsu",
+        "toyohashi",
+        "mikawaanjo",
+        "nagoya",
+        "gifuhashima",
+        "maibara",
+        "kyoto",
+        "shinosaka",
+        "shinkobe",
+        "nishiakashi",
+        "himeji",
+        "aioi",
+        "okayama",
+        "shinkurashiki",
+        "fukuyama",
+        "shinonomichi",
+        "mihara",
+        "higashihiroshima",
+        "hiroshima",
+        "shiniwakuni",
+        "tokuyama",
+        "shinyamaguchi",
+        "asa",
+        "shinshimonoseki",
+        "kokura",
+        "hakata",
+        "shintosu",
+        "kurume",
+        "chikugofunagoya",
+        "shinomuta",
+        "shintamana",
+        "kumamoto",
+        "shinyatsushiro",
+        "shinminamata",
+        "izumi",
+        "sendai-kyushu",
+        "kagoshimachuo"
+      ],
+      "directions": {
+        "down": "下り（博多・鹿児島中央方面）",
+        "up": "上り（新大阪・東京方面）"
+      }
+    },
+    "tohoku": {
+      "name": "東北・北海道新幹線",
+      "stations": [
+        "tokyo-east",
+        "ueno",
+        "omiya",
+        "oyama",
+        "utsunomiya",
+        "nasushiobara",
+        "shinshirakawa",
+        "koriyama",
+        "fukushima",
+        "shiroishizao",
+        "sendai",
+        "furukawa",
+        "kurikomakogen",
+        "ichinoseki",
+        "mizusawaesashi",
+        "kitakami",
+        "shinhanamaki",
+        "morioka",
+        "iwatenumakunai",
+        "ninohe",
+        "hachinohe",
+        "shichinohetowada",
+        "shinaomori",
+        "okutsugaruimabetsu",
+        "kikonai",
+        "shinhakodatehokuto"
+      ],
+      "directions": {
+        "down": "下り（仙台・盛岡・新青森・新函館北斗方面）",
+        "up": "上り（東京方面）"
+      }
+    },
+    "akita": {
+      "name": "東北・秋田新幹線",
+      "stations": [
+        "tokyo-east",
+        "ueno",
+        "omiya",
+        "oyama",
+        "utsunomiya",
+        "nasushiobara",
+        "shinshirakawa",
+        "koriyama",
+        "fukushima",
+        "shiroishizao",
+        "sendai",
+        "furukawa",
+        "kurikomakogen",
+        "ichinoseki",
+        "mizusawaesashi",
+        "kitakami",
+        "shinhanamaki",
+        "morioka",
+        "shizukuishi",
+        "tazawako",
+        "kakunodate",
+        "omagari",
+        "akita"
+      ],
+      "directions": {
+        "down": "下り（盛岡・秋田方面）",
+        "up": "上り（東京方面）"
+      }
+    },
+    "yamagata": {
+      "name": "東北・山形新幹線",
+      "stations": [
+        "tokyo-east",
+        "ueno",
+        "omiya",
+        "oyama",
+        "utsunomiya",
+        "nasushiobara",
+        "shinshirakawa",
+        "koriyama",
+        "fukushima",
+        "yonezawa",
+        "takahata",
+        "akayu",
+        "kaminoyamaonsen",
+        "yamagata",
+        "tendo",
+        "sakuranbohigashine",
+        "murayama",
+        "oishida",
+        "shinjo"
+      ],
+      "directions": {
+        "down": "下り（福島・山形・新庄方面）",
+        "up": "上り（東京方面）"
+      }
+    },
+    "joetsu": {
+      "name": "上越新幹線",
+      "stations": [
+        "tokyo-east",
+        "ueno",
+        "omiya",
+        "kumagaya",
+        "honjowaseda",
+        "takasaki",
+        "jomokogen",
+        "echigoyuzawa",
+        "urasa",
+        "nagaoka",
+        "tsubamesanjo",
+        "niigata"
+      ],
+      "directions": {
+        "down": "下り（高崎・越後湯沢・新潟方面）",
+        "up": "上り（東京方面）"
+      }
+    },
+    "hokuriku": {
+      "name": "北陸新幹線",
+      "stations": [
+        "tokyo-east",
+        "ueno",
+        "omiya",
+        "kumagaya",
+        "honjowaseda",
+        "takasaki",
+        "annakaharuna",
+        "karuizawa",
+        "sakudaira",
+        "ueda",
+        "nagano",
+        "iiyama",
+        "joetsumyoko",
+        "itoigawa",
+        "kurobeunazukionsen",
+        "toyama",
+        "shintakaoka",
+        "kanazawa",
+        "komatsu",
+        "kagaonsen",
+        "awaraonsen",
+        "fukui",
+        "echizentakefu",
+        "tsuruga"
+      ],
+      "directions": {
+        "down": "下り（長野・金沢・敦賀方面）",
+        "up": "上り（東京方面）"
+      }
+    }
+  },
+  "lines": [
+    {
+      "id": "tokaido",
+      "name": "東海道新幹線",
+      "stations": [
+        "tokyo",
+        "shinagawa",
+        "shinyokohama",
+        "odawara",
+        "atami",
+        "mishima",
+        "shinfuji",
+        "shizuoka",
+        "kakegawa",
+        "hamamatsu",
+        "toyohashi",
+        "mikawaanjo",
+        "nagoya",
+        "gifuhashima",
+        "maibara",
+        "kyoto",
+        "shinosaka"
+      ]
+    },
+    {
+      "id": "sanyo",
+      "name": "山陽新幹線",
+      "stations": [
+        "shinkobe",
+        "nishiakashi",
+        "himeji",
+        "aioi",
+        "okayama",
+        "shinkurashiki",
+        "fukuyama",
+        "shinonomichi",
+        "mihara",
+        "higashihiroshima",
+        "hiroshima",
+        "shiniwakuni",
+        "tokuyama",
+        "shinyamaguchi",
+        "asa",
+        "shinshimonoseki",
+        "kokura",
+        "hakata"
+      ]
+    },
+    {
+      "id": "kyushu",
+      "name": "九州新幹線",
+      "stations": [
+        "shintosu",
+        "kurume",
+        "chikugofunagoya",
+        "shinomuta",
+        "shintamana",
+        "kumamoto",
+        "shinyatsushiro",
+        "shinminamata",
+        "izumi",
+        "sendai-kyushu",
+        "kagoshimachuo"
+      ]
+    },
+    {
+      "id": "tohoku",
+      "name": "東北新幹線",
+      "stations": [
+        "tokyo-east",
+        "ueno",
+        "omiya",
+        "oyama",
+        "utsunomiya",
+        "nasushiobara",
+        "shinshirakawa",
+        "koriyama",
+        "fukushima",
+        "shiroishizao",
+        "sendai",
+        "furukawa",
+        "kurikomakogen",
+        "ichinoseki",
+        "mizusawaesashi",
+        "kitakami",
+        "shinhanamaki",
+        "morioka",
+        "iwatenumakunai",
+        "ninohe",
+        "hachinohe",
+        "shichinohetowada",
+        "shinaomori"
+      ]
+    },
+    {
+      "id": "hokkaido",
+      "name": "北海道新幹線",
+      "stations": [
+        "okutsugaruimabetsu",
+        "kikonai",
+        "shinhakodatehokuto"
+      ]
+    },
+    {
+      "id": "akita",
+      "name": "秋田新幹線（盛岡より先）",
+      "stations": [
+        "shizukuishi",
+        "tazawako",
+        "kakunodate",
+        "omagari",
+        "akita"
+      ]
+    },
+    {
+      "id": "yamagata",
+      "name": "山形新幹線（福島より先）",
+      "stations": [
+        "yonezawa",
+        "takahata",
+        "akayu",
+        "kaminoyamaonsen",
+        "yamagata",
+        "tendo",
+        "sakuranbohigashine",
+        "murayama",
+        "oishida",
+        "shinjo"
+      ]
+    },
+    {
+      "id": "joetsu",
+      "name": "上越新幹線（大宮より先）",
+      "stations": [
+        "kumagaya",
+        "honjowaseda",
+        "takasaki",
+        "jomokogen",
+        "echigoyuzawa",
+        "urasa",
+        "nagaoka",
+        "tsubamesanjo",
+        "niigata"
+      ]
+    },
+    {
+      "id": "hokuriku",
+      "name": "北陸新幹線（高崎より先）",
+      "stations": [
+        "annakaharuna",
+        "karuizawa",
+        "sakudaira",
+        "ueda",
+        "nagano",
+        "iiyama",
+        "joetsumyoko",
+        "itoigawa",
+        "kurobeunazukionsen",
+        "toyama",
+        "shintakaoka",
+        "kanazawa",
+        "komatsu",
+        "kagaonsen",
+        "awaraonsen",
+        "fukui",
+        "echizentakefu",
+        "tsuruga"
+      ]
+    }
+  ],
   "trains": {
     "nozomi": {
       "name": "のぞみ（16両）",
-      "cars": 16,
-      "range": [
-        "tokyo",
-        "hakata"
+      "parts": [
+        {
+          "name": "のぞみ",
+          "cars": [
+            1,
+            16
+          ],
+          "route": "tokaido-sanyo-kyushu",
+          "range": [
+            "tokyo",
+            "hakata"
+          ]
+        }
       ],
       "ends": {
-        "down": "新大阪・博多",
-        "up": "東京"
+        "first": "新大阪・博多",
+        "last": "東京"
       },
       "unreserved": [
         1,
@@ -108,6 +837,7 @@
         9,
         10
       ],
+      "granclass": [],
       "note": "7号車はS Work車両。繁忙期は全席指定になる期間があります。",
       "sources": [
         "srctravel-nozomi"
@@ -115,14 +845,23 @@
     },
     "hikari": {
       "name": "ひかり（16両）",
-      "cars": 16,
-      "range": [
-        "tokyo",
-        "hakata"
+      "parts": [
+        {
+          "name": "ひかり",
+          "cars": [
+            1,
+            16
+          ],
+          "route": "tokaido-sanyo-kyushu",
+          "range": [
+            "tokyo",
+            "hakata"
+          ]
+        }
       ],
       "ends": {
-        "down": "新大阪・博多",
-        "up": "東京"
+        "first": "新大阪・博多",
+        "last": "東京"
       },
       "unreserved": [
         1,
@@ -136,6 +875,7 @@
         9,
         10
       ],
+      "granclass": [],
       "note": "列車により自由席の号車が異なる場合があります。",
       "sources": [
         "wadattsu-hakata"
@@ -143,14 +883,23 @@
     },
     "kodama": {
       "name": "こだま（16両）",
-      "cars": 16,
-      "range": [
-        "tokyo",
-        "shinosaka"
+      "parts": [
+        {
+          "name": "こだま",
+          "cars": [
+            1,
+            16
+          ],
+          "route": "tokaido-sanyo-kyushu",
+          "range": [
+            "tokyo",
+            "shinosaka"
+          ]
+        }
       ],
       "ends": {
-        "down": "新大阪・博多",
-        "up": "東京"
+        "first": "新大阪・博多",
+        "last": "東京"
       },
       "unreserved": [
         1,
@@ -165,19 +914,29 @@
         9,
         10
       ],
+      "granclass": [],
       "note": "列車により自由席の号車が異なる場合があります。",
       "sources": []
     },
     "mizuho": {
       "name": "みずほ（8両）",
-      "cars": 8,
-      "range": [
-        "shinosaka",
-        "kagoshimachuo"
+      "parts": [
+        {
+          "name": "みずほ",
+          "cars": [
+            1,
+            8
+          ],
+          "route": "tokaido-sanyo-kyushu",
+          "range": [
+            "shinosaka",
+            "kagoshimachuo"
+          ]
+        }
       ],
       "ends": {
-        "down": "鹿児島中央・博多",
-        "up": "新大阪"
+        "first": "鹿児島中央・博多",
+        "last": "新大阪"
       },
       "unreserved": [
         1,
@@ -187,6 +946,7 @@
       "green": [
         6
       ],
+      "granclass": [],
       "reserved": [
         4,
         5,
@@ -202,14 +962,23 @@
     },
     "sakura": {
       "name": "さくら（8両）",
-      "cars": 8,
-      "range": [
-        "shinosaka",
-        "kagoshimachuo"
+      "parts": [
+        {
+          "name": "さくら",
+          "cars": [
+            1,
+            8
+          ],
+          "route": "tokaido-sanyo-kyushu",
+          "range": [
+            "shinosaka",
+            "kagoshimachuo"
+          ]
+        }
       ],
       "ends": {
-        "down": "鹿児島中央・博多",
-        "up": "新大阪"
+        "first": "鹿児島中央・博多",
+        "last": "新大阪"
       },
       "unreserved": [
         1,
@@ -219,6 +988,7 @@
       "green": [
         6
       ],
+      "granclass": [],
       "reserved": [
         4,
         5,
@@ -231,13 +1001,490 @@
         "odekake-n700-8",
         "wadattsu-hakata"
       ]
+    },
+    "hayabusa": {
+      "name": "はやぶさ（E5・H5系 10両）",
+      "parts": [
+        {
+          "name": "はやぶさ",
+          "cars": [
+            1,
+            10
+          ],
+          "route": "tohoku",
+          "range": [
+            "tokyo-east",
+            "shinhakodatehokuto"
+          ]
+        }
+      ],
+      "ends": {
+        "first": "東京",
+        "last": "新青森・新函館北斗"
+      },
+      "unreserved": [],
+      "green": [
+        9
+      ],
+      "granclass": [
+        10
+      ],
+      "note": "全車指定席。列車により新青森止まりなど運転区間が異なります。",
+      "sources": [
+        "jreast-e5"
+      ]
+    },
+    "hayabusa-komachi": {
+      "name": "はやぶさ＋こまち（17両）",
+      "parts": [
+        {
+          "name": "はやぶさ",
+          "cars": [
+            1,
+            10
+          ],
+          "route": "tohoku",
+          "range": [
+            "tokyo-east",
+            "shinhakodatehokuto"
+          ]
+        },
+        {
+          "name": "こまち",
+          "cars": [
+            11,
+            17
+          ],
+          "route": "akita",
+          "range": [
+            "tokyo-east",
+            "akita"
+          ]
+        }
+      ],
+      "coupled": [
+        "tokyo-east",
+        "morioka"
+      ],
+      "ends": {
+        "first": "東京",
+        "last": "新青森・秋田"
+      },
+      "unreserved": [],
+      "green": [
+        9,
+        11
+      ],
+      "granclass": [
+        10
+      ],
+      "note": "東京〜盛岡は連結して走り、盛岡で分かれます。1〜10号車（はやぶさ・E5/H5系）は新青森・新函館北斗方面、11〜17号車（こまち・E6系）は秋田方面で、車内で行き来はできません。全車指定席。こまちは大曲で進行方向が変わります。",
+      "sources": [
+        "jreast-e5",
+        "jreast-e6",
+        "tokyogarden-sendai"
+      ]
+    },
+    "hayate": {
+      "name": "はやて（E5・H5系 10両）",
+      "parts": [
+        {
+          "name": "はやて",
+          "cars": [
+            1,
+            10
+          ],
+          "route": "tohoku",
+          "range": [
+            "morioka",
+            "shinhakodatehokuto"
+          ]
+        }
+      ],
+      "ends": {
+        "first": "東京",
+        "last": "新青森・新函館北斗"
+      },
+      "unreserved": [],
+      "green": [
+        9
+      ],
+      "granclass": [
+        10
+      ],
+      "note": "全車指定席。運転本数はごくわずかです。",
+      "sources": [
+        "jreast-e5"
+      ]
+    },
+    "yamabiko": {
+      "name": "やまびこ（E5・E2系 10両）",
+      "parts": [
+        {
+          "name": "やまびこ",
+          "cars": [
+            1,
+            10
+          ],
+          "route": "tohoku",
+          "range": [
+            "tokyo-east",
+            "morioka"
+          ]
+        }
+      ],
+      "ends": {
+        "first": "東京",
+        "last": "仙台・盛岡"
+      },
+      "unreserved": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "green": [
+        9
+      ],
+      "granclass": [
+        10
+      ],
+      "note": "E2系で運転する列車は10号車も普通車です。列車により自由席の号車が異なる場合があります。",
+      "sources": [
+        "jreast-e5",
+        "jreast-e2"
+      ]
+    },
+    "yamabiko-tsubasa": {
+      "name": "やまびこ＋つばさ（17両）",
+      "parts": [
+        {
+          "name": "やまびこ",
+          "cars": [
+            1,
+            10
+          ],
+          "route": "tohoku",
+          "range": [
+            "tokyo-east",
+            "morioka"
+          ]
+        },
+        {
+          "name": "つばさ",
+          "cars": [
+            11,
+            17
+          ],
+          "route": "yamagata",
+          "range": [
+            "tokyo-east",
+            "shinjo"
+          ]
+        }
+      ],
+      "coupled": [
+        "tokyo-east",
+        "fukushima"
+      ],
+      "ends": {
+        "first": "東京",
+        "last": "仙台・山形"
+      },
+      "unreserved": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "green": [
+        9,
+        11
+      ],
+      "granclass": [
+        10
+      ],
+      "note": "東京〜福島は連結して走り、福島で分かれます。1〜10号車（やまびこ）は仙台・盛岡方面、11〜17号車（つばさ・E8/E3系、全車指定席）は山形・新庄方面です。列車・時期により福島駅で乗り換えとなる場合があります。",
+      "sources": [
+        "jreast-e5",
+        "jreast-e8",
+        "jreast-e3",
+        "jreast-fukushima"
+      ]
+    },
+    "nasuno": {
+      "name": "なすの（E5・E2系 10両）",
+      "parts": [
+        {
+          "name": "なすの",
+          "cars": [
+            1,
+            10
+          ],
+          "route": "tohoku",
+          "range": [
+            "tokyo-east",
+            "koriyama"
+          ]
+        }
+      ],
+      "ends": {
+        "first": "東京",
+        "last": "那須塩原・郡山"
+      },
+      "unreserved": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "green": [
+        9
+      ],
+      "granclass": [
+        10
+      ],
+      "note": "E2系で運転する列車は10号車も普通車（自由席）です。列車により自由席の号車が異なる場合があります。",
+      "sources": [
+        "jreast-e5",
+        "jreast-e2"
+      ]
+    },
+    "toki": {
+      "name": "とき（E7系 12両）",
+      "parts": [
+        {
+          "name": "とき",
+          "cars": [
+            1,
+            12
+          ],
+          "route": "joetsu",
+          "range": [
+            "tokyo-east",
+            "niigata"
+          ]
+        }
+      ],
+      "ends": {
+        "first": "東京",
+        "last": "新潟"
+      },
+      "unreserved": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "green": [
+        11
+      ],
+      "granclass": [
+        12
+      ],
+      "note": "列車により自由席の号車が異なる場合があります。",
+      "sources": [
+        "jreast-e7"
+      ]
+    },
+    "tanigawa": {
+      "name": "たにがわ（E7系 12両）",
+      "parts": [
+        {
+          "name": "たにがわ",
+          "cars": [
+            1,
+            12
+          ],
+          "route": "joetsu",
+          "range": [
+            "tokyo-east",
+            "echigoyuzawa"
+          ]
+        }
+      ],
+      "ends": {
+        "first": "東京",
+        "last": "越後湯沢"
+      },
+      "unreserved": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "green": [
+        11
+      ],
+      "granclass": [
+        12
+      ],
+      "note": "ガーラ湯沢発着の区間には未対応です。",
+      "sources": [
+        "jreast-e7"
+      ]
+    },
+    "kagayaki": {
+      "name": "かがやき（E7・W7系 12両）",
+      "parts": [
+        {
+          "name": "かがやき",
+          "cars": [
+            1,
+            12
+          ],
+          "route": "hokuriku",
+          "range": [
+            "tokyo-east",
+            "tsuruga"
+          ]
+        }
+      ],
+      "ends": {
+        "first": "東京",
+        "last": "金沢・敦賀"
+      },
+      "unreserved": [],
+      "green": [
+        11
+      ],
+      "granclass": [
+        12
+      ],
+      "note": "全車指定席。停車駅が限られるため、乗降する駅に停まるか時刻表で確認してください。",
+      "sources": [
+        "jreast-e7"
+      ]
+    },
+    "hakutaka": {
+      "name": "はくたか（E7・W7系 12両）",
+      "parts": [
+        {
+          "name": "はくたか",
+          "cars": [
+            1,
+            12
+          ],
+          "route": "hokuriku",
+          "range": [
+            "tokyo-east",
+            "tsuruga"
+          ]
+        }
+      ],
+      "ends": {
+        "first": "東京",
+        "last": "金沢・敦賀"
+      },
+      "unreserved": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "green": [
+        11
+      ],
+      "granclass": [
+        12
+      ],
+      "note": "列車により自由席の号車が異なる場合があります。",
+      "sources": [
+        "jreast-e7"
+      ]
+    },
+    "asama": {
+      "name": "あさま（E7・W7系 12両）",
+      "parts": [
+        {
+          "name": "あさま",
+          "cars": [
+            1,
+            12
+          ],
+          "route": "hokuriku",
+          "range": [
+            "tokyo-east",
+            "nagano"
+          ]
+        }
+      ],
+      "ends": {
+        "first": "東京",
+        "last": "長野"
+      },
+      "unreserved": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "green": [
+        11
+      ],
+      "granclass": [
+        12
+      ],
+      "note": "列車により自由席の号車が異なる場合があります。",
+      "sources": [
+        "jreast-e7"
+      ]
+    },
+    "tsurugi": {
+      "name": "つるぎ（W7・E7系 12両）",
+      "parts": [
+        {
+          "name": "つるぎ",
+          "cars": [
+            1,
+            12
+          ],
+          "route": "hokuriku",
+          "range": [
+            "toyama",
+            "tsuruga"
+          ]
+        }
+      ],
+      "ends": {
+        "first": "富山",
+        "last": "敦賀"
+      },
+      "unreserved": [
+        1,
+        2
+      ],
+      "green": [
+        11
+      ],
+      "granclass": [
+        12
+      ],
+      "note": "号車の向きは北陸新幹線共通で、1号車が東京方（富山方）です。早朝・深夜の一部列車は1〜4号車が自由席です。",
+      "sources": [
+        "jreast-e7",
+        "srctravel-tsurugi"
+      ]
     }
   },
   "stations": [
     {
       "id": "tokyo",
       "name": "東京",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "platform",
@@ -246,12 +1493,13 @@
             "15"
           ],
           "direction": "both",
-          "car": 10,
+          "cars": {
+            "16": 10
+          },
           "verification": "official",
           "sources": [
             "jrc-2026"
-          ],
-          "car8": null
+          ]
         },
         {
           "kind": "platform",
@@ -260,12 +1508,13 @@
             "15"
           ],
           "direction": "both",
-          "car": 11,
+          "cars": {
+            "16": 11
+          },
           "verification": "official",
           "sources": [
             "jrc-2026"
-          ],
-          "car8": null
+          ]
         },
         {
           "kind": "platform",
@@ -274,12 +1523,13 @@
             "17"
           ],
           "direction": "both",
-          "car": 13,
+          "cars": {
+            "16": 13
+          },
           "verification": "official",
           "sources": [
             "jrc-2026"
-          ],
-          "car8": null
+          ]
         },
         {
           "kind": "platform",
@@ -288,12 +1538,13 @@
             "17"
           ],
           "direction": "both",
-          "car": 15,
+          "cars": {
+            "16": 15
+          },
           "verification": "official",
           "sources": [
             "jrc-2026"
-          ],
-          "car8": null
+          ]
         },
         {
           "kind": "platform",
@@ -302,12 +1553,13 @@
             "19"
           ],
           "direction": "both",
-          "car": 13,
+          "cars": {
+            "16": 13
+          },
           "verification": "official",
           "sources": [
             "jrc-2026"
-          ],
-          "car8": null
+          ]
         },
         {
           "kind": "platform",
@@ -316,19 +1568,19 @@
             "19"
           ],
           "direction": "both",
-          "car": 15,
+          "cars": {
+            "16": 15
+          },
           "verification": "official",
           "sources": [
             "jrc-2026"
-          ],
-          "car8": null
+          ]
         }
       ]
     },
     {
       "id": "shinagawa",
       "name": "品川",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "concourse",
@@ -344,7 +1596,6 @@
     {
       "id": "shinyokohama",
       "name": "新横浜",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "concourse",
@@ -360,7 +1611,6 @@
     {
       "id": "odawara",
       "name": "小田原",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "concourse",
@@ -376,7 +1626,6 @@
     {
       "id": "atami",
       "name": "熱海",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "concourse",
@@ -392,7 +1641,6 @@
     {
       "id": "mishima",
       "name": "三島",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "platform",
@@ -400,14 +1648,15 @@
             "6"
           ],
           "direction": "up",
-          "car": 15,
+          "cars": {
+            "16": 15
+          },
           "verification": "official",
           "sources": [
             "jrc-2026",
             "yoyaku-2025"
           ],
-          "note": "5・6番線共用の島式ホームに1か所。停車位置の違いで6番線は15号車、5番線は16号車付近。番線と上下の対応は非公式情報によります。",
-          "car8": null
+          "note": "5・6番線共用の島式ホームに1か所。停車位置の違いで6番線は15号車、5番線は16号車付近。番線と上下の対応は非公式情報によります。"
         },
         {
           "kind": "platform",
@@ -415,21 +1664,21 @@
             "5"
           ],
           "direction": "down",
-          "car": 16,
+          "cars": {
+            "16": 16
+          },
           "verification": "official",
           "sources": [
             "jrc-2026",
             "yoyaku-2025"
           ],
-          "note": "5・6番線共用の島式ホームに1か所。番線と上下の対応は非公式情報によります。",
-          "car8": null
+          "note": "5・6番線共用の島式ホームに1か所。番線と上下の対応は非公式情報によります。"
         }
       ]
     },
     {
       "id": "shinfuji",
       "name": "新富士",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "concourse",
@@ -445,7 +1694,6 @@
     {
       "id": "shizuoka",
       "name": "静岡",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "platform",
@@ -453,13 +1701,14 @@
             "5"
           ],
           "direction": "up",
-          "car": 16,
+          "cars": {
+            "16": 16
+          },
           "verification": "official",
           "sources": [
             "jrc-2026",
             "yoyaku-2025"
-          ],
-          "car8": null
+          ]
         },
         {
           "kind": "platform",
@@ -467,20 +1716,20 @@
             "6"
           ],
           "direction": "down",
-          "car": 16,
+          "cars": {
+            "16": 16
+          },
           "verification": "official",
           "sources": [
             "jrc-2026",
             "yoyaku-2025"
-          ],
-          "car8": null
+          ]
         }
       ]
     },
     {
       "id": "kakegawa",
       "name": "掛川",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "concourse",
@@ -496,7 +1745,6 @@
     {
       "id": "hamamatsu",
       "name": "浜松",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "platform",
@@ -504,14 +1752,15 @@
             "5"
           ],
           "direction": "up",
-          "car": 16,
+          "cars": {
+            "16": 16
+          },
           "verification": "official",
           "sources": [
             "jrc-2026",
             "yoyaku-2025"
           ],
-          "note": "16号車の東京寄り端付近。",
-          "car8": null
+          "note": "16号車の東京寄り端付近。"
         },
         {
           "kind": "platform",
@@ -519,21 +1768,21 @@
             "6"
           ],
           "direction": "down",
-          "car": 16,
+          "cars": {
+            "16": 16
+          },
           "verification": "official",
           "sources": [
             "jrc-2026",
             "yoyaku-2025"
           ],
-          "note": "16号車の東京寄り端付近。",
-          "car8": null
+          "note": "16号車の東京寄り端付近。"
         }
       ]
     },
     {
       "id": "toyohashi",
       "name": "豊橋",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "concourse",
@@ -549,7 +1798,6 @@
     {
       "id": "mikawaanjo",
       "name": "三河安城",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "concourse",
@@ -565,7 +1813,6 @@
     {
       "id": "nagoya",
       "name": "名古屋",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "platform",
@@ -574,14 +1821,15 @@
             "15"
           ],
           "direction": "up",
-          "car": 9,
+          "cars": {
+            "16": 9
+          },
           "verification": "official",
           "sources": [
             "jrc-2026",
             "yoyaku-2025"
           ],
-          "note": "9号車と10号車の間（9号車寄り）。",
-          "car8": null
+          "note": "9号車と10号車の間（9号車寄り）。"
         },
         {
           "kind": "platform",
@@ -590,20 +1838,20 @@
             "17"
           ],
           "direction": "down",
-          "car": 16,
+          "cars": {
+            "16": 16
+          },
           "verification": "official",
           "sources": [
             "jrc-2026",
             "yoyaku-2025"
-          ],
-          "car8": null
+          ]
         }
       ]
     },
     {
       "id": "gifuhashima",
       "name": "岐阜羽島",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "concourse",
@@ -619,7 +1867,6 @@
     {
       "id": "maibara",
       "name": "米原",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "concourse",
@@ -635,7 +1882,6 @@
     {
       "id": "kyoto",
       "name": "京都",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "concourse",
@@ -651,7 +1897,6 @@
     {
       "id": "shinosaka",
       "name": "新大阪",
-      "line": "tokaido",
       "rooms": [
         {
           "kind": "concourse",
@@ -667,120 +1912,117 @@
     {
       "id": "shinkobe",
       "name": "新神戸",
-      "line": "sanyo",
       "rooms": [
         {
           "kind": "platform",
           "tracks": [],
           "direction": "up",
-          "car": 10,
+          "cars": {
+            "8": null,
+            "16": 10
+          },
           "verification": "unverified",
           "sources": [
             "westjr-2013",
             "meqqe-shinkobe"
           ],
-          "note": "上りホームの東京方・10号車付近とする非公式情報。要現地確認。",
-          "car8": null
+          "note": "上りホームの東京方・10号車付近とする非公式情報。要現地確認。"
         },
         {
           "kind": "platform",
           "tracks": [],
           "direction": "down",
-          "car": 10,
+          "cars": {
+            "8": null,
+            "16": 10
+          },
           "verification": "unverified",
           "sources": [
             "westjr-2013",
             "meqqe-shinkobe"
           ],
-          "note": "下りホームの東京方・10号車付近とする非公式情報。要現地確認。",
-          "car8": null
+          "note": "下りホームの東京方・10号車付近とする非公式情報。要現地確認。"
         }
       ]
     },
     {
       "id": "nishiakashi",
       "name": "西明石",
-      "line": "sanyo",
       "rooms": []
     },
     {
       "id": "himeji",
       "name": "姫路",
-      "line": "sanyo",
       "rooms": []
     },
     {
       "id": "aioi",
       "name": "相生",
-      "line": "sanyo",
       "rooms": []
     },
     {
       "id": "okayama",
       "name": "岡山",
-      "line": "sanyo",
       "rooms": [
         {
           "kind": "platform",
           "tracks": [],
           "direction": "up",
-          "car": 13,
+          "cars": {
+            "8": null,
+            "16": 13
+          },
           "verification": "unverified",
           "sources": [
             "westjr-2013",
             "simvoyage-okayama"
           ],
-          "note": "上りホーム（新大阪方面）の13号車付近とする非公式情報。下りホームの位置は未確認。",
-          "car8": null
+          "note": "上りホーム（新大阪方面）の13号車付近とする非公式情報。下りホームの位置は未確認。"
         },
         {
           "kind": "platform",
           "tracks": [],
           "direction": "down",
-          "car": null,
+          "cars": {
+            "8": null,
+            "16": null
+          },
           "verification": "unverified",
           "sources": [
             "westjr-2013"
           ],
-          "note": "2013年時点で上下ホームに設置。号車位置は未確認。",
-          "car8": null
+          "note": "2013年時点で上下ホームに設置。号車位置は未確認。"
         }
       ]
     },
     {
       "id": "shinkurashiki",
       "name": "新倉敷",
-      "line": "sanyo",
       "rooms": []
     },
     {
       "id": "fukuyama",
       "name": "福山",
-      "line": "sanyo",
       "rooms": []
     },
     {
       "id": "shinonomichi",
       "name": "新尾道",
-      "line": "sanyo",
       "rooms": []
     },
     {
       "id": "mihara",
       "name": "三原",
-      "line": "sanyo",
       "rooms": []
     },
     {
       "id": "higashihiroshima",
       "name": "東広島",
-      "line": "sanyo",
       "rooms": []
     },
     {
       "id": "hiroshima",
       "name": "広島",
-      "line": "sanyo",
       "rooms": [
         {
           "kind": "platform",
@@ -789,13 +2031,15 @@
             "12"
           ],
           "direction": "down",
-          "car": 15,
+          "cars": {
+            "8": null,
+            "16": 15
+          },
           "verification": "unverified",
           "sources": [
             "westjr-2013",
             "tokyogarden-hiroshima"
-          ],
-          "car8": null
+          ]
         },
         {
           "kind": "platform",
@@ -804,81 +2048,80 @@
             "14"
           ],
           "direction": "up",
-          "car": 15,
+          "cars": {
+            "8": null,
+            "16": 15
+          },
           "verification": "unverified",
           "sources": [
             "westjr-2013",
             "tokyogarden-hiroshima"
-          ],
-          "car8": null
+          ]
         }
       ]
     },
     {
       "id": "shiniwakuni",
       "name": "新岩国",
-      "line": "sanyo",
       "rooms": []
     },
     {
       "id": "tokuyama",
       "name": "徳山",
-      "line": "sanyo",
       "rooms": []
     },
     {
       "id": "shinyamaguchi",
       "name": "新山口",
-      "line": "sanyo",
       "rooms": []
     },
     {
       "id": "asa",
       "name": "厚狭",
-      "line": "sanyo",
       "rooms": []
     },
     {
       "id": "shinshimonoseki",
       "name": "新下関",
-      "line": "sanyo",
       "rooms": []
     },
     {
       "id": "kokura",
       "name": "小倉",
-      "line": "sanyo",
       "rooms": [
         {
           "kind": "platform",
           "tracks": [],
           "direction": "up",
-          "car": null,
+          "cars": {
+            "8": null,
+            "16": null
+          },
           "verification": "unverified",
           "sources": [
             "westjr-2013"
           ],
-          "note": "2013年時点で上下ホームに設置。号車位置は未確認。",
-          "car8": null
+          "note": "2013年時点で上下ホームに設置。号車位置は未確認。"
         },
         {
           "kind": "platform",
           "tracks": [],
           "direction": "down",
-          "car": null,
+          "cars": {
+            "8": null,
+            "16": null
+          },
           "verification": "unverified",
           "sources": [
             "westjr-2013"
           ],
-          "note": "2013年時点で上下ホームに設置。号車位置は未確認。",
-          "car8": null
+          "note": "2013年時点で上下ホームに設置。号車位置は未確認。"
         }
       ]
     },
     {
       "id": "hakata",
       "name": "博多",
-      "line": "sanyo",
       "rooms": [
         {
           "kind": "platform",
@@ -886,8 +2129,10 @@
             "11"
           ],
           "direction": "both",
-          "car": null,
-          "car8": 8,
+          "cars": {
+            "8": 8,
+            "16": null
+          },
           "verification": "unverified",
           "sources": [
             "wadattsu-hakata",
@@ -901,8 +2146,10 @@
             "12"
           ],
           "direction": "both",
-          "car": 12,
-          "car8": 8,
+          "cars": {
+            "8": 8,
+            "16": 12
+          },
           "verification": "conflict",
           "sources": [
             "wadattsu-hakata",
@@ -917,8 +2164,10 @@
             "14"
           ],
           "direction": "both",
-          "car": 13,
-          "car8": null,
+          "cars": {
+            "8": null,
+            "16": 13
+          },
           "verification": "unverified",
           "sources": [
             "yoyaku-hakata",
@@ -933,8 +2182,10 @@
             "16"
           ],
           "direction": "both",
-          "car": 13,
-          "car8": null,
+          "cars": {
+            "8": null,
+            "16": 13
+          },
           "verification": "conflict",
           "sources": [
             "yoyaku-hakata",
@@ -947,44 +2198,39 @@
     {
       "id": "shintosu",
       "name": "新鳥栖",
-      "line": "kyushu",
       "rooms": []
     },
     {
       "id": "kurume",
       "name": "久留米",
-      "line": "kyushu",
       "rooms": []
     },
     {
       "id": "chikugofunagoya",
       "name": "筑後船小屋",
-      "line": "kyushu",
       "rooms": []
     },
     {
       "id": "shinomuta",
       "name": "新大牟田",
-      "line": "kyushu",
       "rooms": []
     },
     {
       "id": "shintamana",
       "name": "新玉名",
-      "line": "kyushu",
       "rooms": []
     },
     {
       "id": "kumamoto",
       "name": "熊本",
-      "line": "kyushu",
       "rooms": [
         {
           "kind": "platform",
           "tracks": [],
           "direction": "both",
-          "car": null,
-          "car8": null,
+          "cars": {
+            "8": null
+          },
           "verification": "official",
           "sources": [
             "jrkyushu-nosmoking"
@@ -996,31 +2242,26 @@
     {
       "id": "shinyatsushiro",
       "name": "新八代",
-      "line": "kyushu",
       "rooms": []
     },
     {
       "id": "shinminamata",
       "name": "新水俣",
-      "line": "kyushu",
       "rooms": []
     },
     {
       "id": "izumi",
       "name": "出水",
-      "line": "kyushu",
       "rooms": []
     },
     {
-      "id": "sendai",
+      "id": "sendai-kyushu",
       "name": "川内",
-      "line": "kyushu",
       "rooms": []
     },
     {
       "id": "kagoshimachuo",
       "name": "鹿児島中央",
-      "line": "kyushu",
       "rooms": [
         {
           "kind": "concourse",
@@ -1030,6 +2271,1635 @@
             "jrkyushu-nosmoking",
             "kagoshima-website"
           ]
+        }
+      ]
+    },
+    {
+      "id": "tokyo-east",
+      "name": "東京（東北・上越・北陸）",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "20",
+            "21"
+          ],
+          "direction": "both",
+          "cars": {
+            "10": 1,
+            "12": 1,
+            "17": 1
+          },
+          "verification": "official",
+          "sources": [
+            "jremedia-tokyo",
+            "wadattsu-tokyo-east",
+            "tokyogarden-tokyo"
+          ],
+          "note": "ホームの東京寄りの端（1号車の先端付近）。東京駅は終着駅で各編成とも1号車がこの端に停まるため、10両・12両編成でも1号車付近です（Tokyo Gardenの記載による）。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "20",
+            "21"
+          ],
+          "direction": "both",
+          "cars": {
+            "17": 14
+          },
+          "verification": "official",
+          "sources": [
+            "jremedia-tokyo",
+            "wadattsu-tokyo-east",
+            "tokyogarden-tokyo"
+          ],
+          "note": "大宮寄りの14号車付近。この付近に停まるのは17両編成のこまち・つばさの車両だけです。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "22",
+            "23"
+          ],
+          "direction": "both",
+          "cars": {
+            "17": 11
+          },
+          "verification": "official",
+          "sources": [
+            "jremedia-tokyo",
+            "wadattsu-tokyo-east",
+            "tokyogarden-tokyo"
+          ],
+          "note": "大宮寄りの11号車付近（キオスクの向かい）。出典は号車の基準となる編成を明記していないため、17両編成の号車として登録しています。10両・12両編成での位置は未確認。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "22",
+            "23"
+          ],
+          "direction": "both",
+          "cars": {
+            "17": 13
+          },
+          "verification": "official",
+          "sources": [
+            "jremedia-tokyo",
+            "wadattsu-tokyo-east",
+            "tokyogarden-tokyo"
+          ],
+          "note": "大宮寄りの13号車付近。17両編成の号車として登録しています。22・23番線ホームの東京寄りには喫煙所がありません。"
+        }
+      ]
+    },
+    {
+      "id": "ueno",
+      "name": "上野",
+      "rooms": [
+        {
+          "kind": "concourse",
+          "location": "改札内コンコース（地下3階、19・20番線ホーム行きエレベーター付近）",
+          "verification": "official",
+          "sources": [
+            "jremedia-ueno",
+            "wadattsu-ueno",
+            "jreast-faq-smoking"
+          ],
+          "note": "ホーム上にはありません。"
+        }
+      ]
+    },
+    {
+      "id": "omiya",
+      "name": "大宮",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "13",
+            "14"
+          ],
+          "direction": "up",
+          "cars": {
+            "10": 2,
+            "12": 2,
+            "17": 4
+          },
+          "verification": "unverified",
+          "sources": [
+            "wadattsu-omiya",
+            "tokyogarden-omiya",
+            "jreast-faq-smoking"
+          ],
+          "note": "上りホームの東京寄りに1か所。15・16番線ホームにはありません。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "17"
+          ],
+          "direction": "down",
+          "cars": {
+            "10": null,
+            "17": 14
+          },
+          "verification": "conflict",
+          "sources": [
+            "wadattsu-omiya",
+            "tokyogarden-omiya",
+            "jreast-faq-smoking"
+          ],
+          "note": "下りホームの仙台・金沢寄りに1か所（17・18番線共用）。東北新幹線の17両編成で14号車付近とする情報と15号車付近とする情報があります。10両編成での位置は未確認。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "18"
+          ],
+          "direction": "down",
+          "cars": {
+            "12": 12
+          },
+          "verification": "unverified",
+          "sources": [
+            "wadattsu-omiya",
+            "tokyogarden-omiya",
+            "jreast-faq-smoking"
+          ],
+          "note": "下りホームの仙台・金沢寄りに1か所（17・18番線共用）。上越・北陸新幹線の12号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "oyama",
+      "name": "小山",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "10": null,
+            "17": 14
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-oyama"
+          ],
+          "note": "17両編成の14号車付近。10両編成での位置は出典に無いため未確認（この駅では10両編成と17両編成の停車位置がずれます）。"
+        }
+      ]
+    },
+    {
+      "id": "utsunomiya",
+      "name": "宇都宮",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "1"
+          ],
+          "direction": "down",
+          "cars": {
+            "10": null,
+            "17": 9
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-utsunomiya"
+          ],
+          "note": "10両編成での位置は出典に無いため未確認（この駅では10両編成と17両編成の停車位置がずれます）。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "4"
+          ],
+          "direction": "up",
+          "cars": {
+            "10": null,
+            "17": 8
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-utsunomiya"
+          ],
+          "note": "10両編成での位置は出典に無いため未確認（この駅では10両編成と17両編成の停車位置がずれます）。"
+        }
+      ]
+    },
+    {
+      "id": "nasushiobara",
+      "name": "那須塩原",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "1"
+          ],
+          "direction": "down",
+          "cars": {
+            "10": null,
+            "17": 5
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-nasushiobara"
+          ],
+          "note": "10両編成での位置は未確認。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "4"
+          ],
+          "direction": "up",
+          "cars": {
+            "10": null,
+            "17": 5
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-nasushiobara"
+          ],
+          "note": "10両編成での位置は未確認。"
+        }
+      ]
+    },
+    {
+      "id": "shinshirakawa",
+      "name": "新白河",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "1"
+          ],
+          "direction": "down",
+          "cars": {
+            "10": 8,
+            "17": 9
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-shinshirakawa"
+          ]
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "4"
+          ],
+          "direction": "up",
+          "cars": {
+            "10": 8,
+            "17": 9
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-shinshirakawa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "koriyama",
+      "name": "郡山",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "13"
+          ],
+          "direction": "up",
+          "cars": {
+            "10": 9,
+            "17": 9
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-koriyama"
+          ],
+          "note": "10両編成は17両編成の1〜10号車と同じ位置に停まります（出典の記載による）。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "11",
+            "12"
+          ],
+          "direction": "down",
+          "cars": {
+            "10": 8,
+            "17": 8
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-koriyama"
+          ],
+          "note": "10両編成は17両編成の1〜10号車と同じ位置に停まります（出典の記載による）。"
+        }
+      ]
+    },
+    {
+      "id": "fukushima",
+      "name": "福島",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "11",
+            "12"
+          ],
+          "direction": "up",
+          "cars": {
+            "10": null,
+            "17": 6
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-fukushima"
+          ],
+          "note": "10両編成での位置は未確認。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "13",
+            "14"
+          ],
+          "direction": "down",
+          "cars": {
+            "10": null,
+            "17": 6
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-fukushima"
+          ],
+          "note": "10両編成での位置は未確認。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "13",
+            "14"
+          ],
+          "direction": "down",
+          "cars": {
+            "17": 14
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-fukushima"
+          ],
+          "note": "17両編成の14号車（つばさ・こまち側）付近。"
+        }
+      ]
+    },
+    {
+      "id": "shiroishizao",
+      "name": "白石蔵王",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "2"
+          ],
+          "direction": "up",
+          "cars": {
+            "10": 6,
+            "17": 8
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-shiroishizao"
+          ],
+          "note": "上りホームのみ。1番線（下り）ホームにはありません。"
+        }
+      ]
+    },
+    {
+      "id": "sendai",
+      "name": "仙台",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "11",
+            "12"
+          ],
+          "direction": "down",
+          "cars": {
+            "10": 5,
+            "17": 5
+          },
+          "verification": "unverified",
+          "sources": [
+            "tokyogarden-sendai",
+            "wadattsu-sendai",
+            "jreast-faq-smoking"
+          ],
+          "note": "東京寄りの5号車付近。駅の「列車編成のご案内」サイネージ（写真）では、10両のはやぶさも17両編成の1〜10号車と同じ位置に停まります。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "11",
+            "12"
+          ],
+          "direction": "down",
+          "cars": {
+            "17": 14
+          },
+          "verification": "unverified",
+          "sources": [
+            "tokyogarden-sendai",
+            "jreast-faq-smoking"
+          ],
+          "note": "盛岡寄りの14号車付近。この付近に停まるのは17両編成のこまちの車両だけです。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "13",
+            "14"
+          ],
+          "direction": "up",
+          "cars": {
+            "10": 5,
+            "17": 5
+          },
+          "verification": "unverified",
+          "sources": [
+            "tokyogarden-sendai",
+            "wadattsu-sendai",
+            "jreast-faq-smoking"
+          ],
+          "note": "東京寄りの5号車付近。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "13",
+            "14"
+          ],
+          "direction": "up",
+          "cars": {
+            "17": 14
+          },
+          "verification": "unverified",
+          "sources": [
+            "tokyogarden-sendai",
+            "jreast-faq-smoking"
+          ],
+          "note": "盛岡寄りの14号車付近。この付近に停まるのは17両編成のこまちの車両だけです。"
+        }
+      ]
+    },
+    {
+      "id": "furukawa",
+      "name": "古川",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "11"
+          ],
+          "direction": "down",
+          "cars": {
+            "10": 5,
+            "17": 7
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-furukawa"
+          ]
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "12"
+          ],
+          "direction": "up",
+          "cars": {
+            "10": 5,
+            "17": 7
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-furukawa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kurikomakogen",
+      "name": "くりこま高原",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "11"
+          ],
+          "direction": "up",
+          "cars": {
+            "10": 8,
+            "17": 10
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-kurikomakogen"
+          ]
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "12"
+          ],
+          "direction": "down",
+          "cars": {
+            "10": 6,
+            "17": 8
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-kurikomakogen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ichinoseki",
+      "name": "一ノ関",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "11"
+          ],
+          "direction": "down",
+          "cars": {
+            "10": 3,
+            "17": 5
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-ichinoseki"
+          ]
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "12"
+          ],
+          "direction": "up",
+          "cars": {
+            "10": 3,
+            "17": 5
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-ichinoseki"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mizusawaesashi",
+      "name": "水沢江刺",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "11"
+          ],
+          "direction": "down",
+          "cars": {
+            "10": null,
+            "17": 9
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-mizusawaesashi"
+          ],
+          "note": "出典では10両編成で5号車付近とされていますが、同じ出典の他の停車位置と2両分食い違うため、10両編成での位置は未確認としています。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "12"
+          ],
+          "direction": "up",
+          "cars": {
+            "10": null,
+            "17": 9
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-mizusawaesashi"
+          ],
+          "note": "10両編成での位置は未確認（出典内で食い違いあり）。"
+        }
+      ]
+    },
+    {
+      "id": "kitakami",
+      "name": "北上",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "down",
+          "cars": {
+            "10": 3,
+            "17": 5
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-kitakami"
+          ]
+        },
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "up",
+          "cars": {
+            "10": 2,
+            "17": 4
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-kitakami"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shinhanamaki",
+      "name": "新花巻",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "10": null,
+            "17": null
+          },
+          "verification": "conflict",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-shinhanamaki"
+          ],
+          "note": "同じ出典の中で、1番線10号車（10両編成は6号車）・2番線12号車（同8号車）とする記載と、両ホームとも7号車（同5号車）とする記載が食い違っています。"
+        }
+      ]
+    },
+    {
+      "id": "morioka",
+      "name": "盛岡",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "11",
+            "12"
+          ],
+          "direction": "up",
+          "cars": {
+            "10": null,
+            "17": 3
+          },
+          "verification": "official",
+          "sources": [
+            "jremedia-morioka",
+            "jreast-faq-smoking"
+          ],
+          "note": "はやぶさ側の3号車付近。10両編成（単独のやまびこ・はやぶさ・はやて）での位置は未確認。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "11",
+            "12"
+          ],
+          "direction": "up",
+          "cars": {
+            "17": 13
+          },
+          "verification": "official",
+          "sources": [
+            "jremedia-morioka",
+            "wadattsu-morioka",
+            "jreast-faq-smoking"
+          ],
+          "note": "こまち側の13号車付近。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "13",
+            "14"
+          ],
+          "direction": "down",
+          "cars": {
+            "10": null,
+            "17": 3
+          },
+          "verification": "official",
+          "sources": [
+            "jremedia-morioka",
+            "jreast-faq-smoking"
+          ],
+          "note": "はやぶさ側の3号車付近。10両編成での位置は未確認。"
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "13",
+            "14"
+          ],
+          "direction": "down",
+          "cars": {
+            "17": 13
+          },
+          "verification": "official",
+          "sources": [
+            "jremedia-morioka",
+            "wadattsu-morioka",
+            "jreast-faq-smoking"
+          ],
+          "note": "こまち側の13号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "iwatenumakunai",
+      "name": "いわて沼宮内",
+      "rooms": []
+    },
+    {
+      "id": "ninohe",
+      "name": "二戸",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "10": 10
+          },
+          "verification": "conflict",
+          "sources": [
+            "wadattsu-ninohe",
+            "jreast-faq-smoking"
+          ],
+          "note": "非公式情報（2026年4月更新）では上下ホームとも10号車付近にあるとされますが、JR東日本公式FAQ（2024年8月更新）の喫煙ルーム設置駅一覧に二戸は含まれていません。"
+        }
+      ]
+    },
+    {
+      "id": "hachinohe",
+      "name": "八戸",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "10": 8
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-hachinohe"
+          ],
+          "note": "上下ホームとも8号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "shichinohetowada",
+      "name": "七戸十和田",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "jreast-faq-smoking"
+          ],
+          "note": "JR東日本の公式FAQで新幹線ホーム等に排煙設備のある喫煙ルームがある駅とされています。ホーム上か改札内コンコースかを含め、場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "shinaomori",
+      "name": "新青森",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "10": 4
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-shinaomori"
+          ]
+        },
+        {
+          "kind": "concourse",
+          "location": "新幹線改札内コンコース（13・14番線ホーム行きエスカレーター付近）",
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-shinaomori"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "okutsugaruimabetsu",
+      "name": "奥津軽いまべつ",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "jrh-nosmoking"
+          ],
+          "note": "JR北海道の公式資料で喫煙室がある駅とされています。場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "kikonai",
+      "name": "木古内",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "jrh-nosmoking"
+          ],
+          "note": "JR北海道の公式資料で喫煙室がある駅とされています。場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "shinhakodatehokuto",
+      "name": "新函館北斗",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "11",
+            "12"
+          ],
+          "direction": "both",
+          "cars": {
+            "10": 5
+          },
+          "verification": "unverified",
+          "sources": [
+            "wadattsu-shinhakodatehokuto",
+            "jrh-nosmoking"
+          ],
+          "note": "11番線（東京方面の乗車ホーム）・12番線（降車ホーム）とも5号車付近。"
+        },
+        {
+          "kind": "concourse",
+          "location": "改札内コンコース（11番線ホーム側付近）",
+          "verification": "unverified",
+          "sources": [
+            "wadattsu-shinhakodatehokuto",
+            "jrh-nosmoking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shizukuishi",
+      "name": "雫石",
+      "rooms": []
+    },
+    {
+      "id": "tazawako",
+      "name": "田沢湖",
+      "rooms": []
+    },
+    {
+      "id": "kakunodate",
+      "name": "角館",
+      "rooms": []
+    },
+    {
+      "id": "omagari",
+      "name": "大曲",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "jreast-faq-smoking"
+          ],
+          "note": "JR東日本の公式FAQで新幹線ホーム等に排煙設備のある喫煙ルームがある駅とされています。ホーム上か改札内コンコースかを含め、場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "akita",
+      "name": "秋田",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "11",
+            "12"
+          ],
+          "direction": "both",
+          "cars": {
+            "7": 16
+          },
+          "verification": "official",
+          "sources": [
+            "jremedia-akita",
+            "jreast-faq-smoking"
+          ],
+          "note": "新幹線ホームのNewDays・待合室の先、16号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "yonezawa",
+      "name": "米沢",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "jreast-faq-smoking"
+          ],
+          "note": "JR東日本の公式FAQで新幹線ホーム等に排煙設備のある喫煙ルームがある駅とされています。ホーム上か改札内コンコースかを含め、場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "takahata",
+      "name": "高畠",
+      "rooms": []
+    },
+    {
+      "id": "akayu",
+      "name": "赤湯",
+      "rooms": []
+    },
+    {
+      "id": "kaminoyamaonsen",
+      "name": "かみのやま温泉",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "jreast-faq-smoking"
+          ],
+          "note": "JR東日本の公式FAQで新幹線ホーム等に排煙設備のある喫煙ルームがある駅とされています。ホーム上か改札内コンコースかを含め、場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "yamagata",
+      "name": "山形",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "jreast-faq-smoking"
+          ],
+          "note": "JR東日本の公式FAQで新幹線ホーム等に排煙設備のある喫煙ルームがある駅とされています。ホーム上か改札内コンコースかを含め、場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "tendo",
+      "name": "天童",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "jreast-faq-smoking"
+          ],
+          "note": "JR東日本の公式FAQで新幹線ホーム等に排煙設備のある喫煙ルームがある駅とされています。ホーム上か改札内コンコースかを含め、場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "sakuranbohigashine",
+      "name": "さくらんぼ東根",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "jreast-faq-smoking"
+          ],
+          "note": "JR東日本の公式FAQで新幹線ホーム等に排煙設備のある喫煙ルームがある駅とされています。ホーム上か改札内コンコースかを含め、場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "murayama",
+      "name": "村山",
+      "rooms": []
+    },
+    {
+      "id": "oishida",
+      "name": "大石田",
+      "rooms": []
+    },
+    {
+      "id": "shinjo",
+      "name": "新庄",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "jreast-faq-smoking"
+          ],
+          "note": "JR東日本の公式FAQで新幹線ホーム等に排煙設備のある喫煙ルームがある駅とされています。ホーム上か改札内コンコースかを含め、場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "kumagaya",
+      "name": "熊谷",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "12": null
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-kumagaya"
+          ],
+          "note": "ホーム上にあるとする非公式情報がありますが、12両編成しか停まらない駅で「14号車付近」と書かれており、号車の基準が分からないため未確認としています。"
+        }
+      ]
+    },
+    {
+      "id": "honjowaseda",
+      "name": "本庄早稲田",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "1"
+          ],
+          "direction": "up",
+          "cars": {
+            "12": 5
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-honjowaseda"
+          ],
+          "note": "上りホームのみ。2番線（下り）ホームにはありません。"
+        }
+      ]
+    },
+    {
+      "id": "takasaki",
+      "name": "高崎",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "12": 6
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-takasaki"
+          ],
+          "note": "上下ホームとも6号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "jomokogen",
+      "name": "上毛高原",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "jreast-faq-smoking"
+          ],
+          "note": "JR東日本の公式FAQで新幹線ホーム等に排煙設備のある喫煙ルームがある駅とされています。ホーム上か改札内コンコースかを含め、場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "echigoyuzawa",
+      "name": "越後湯沢",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "11",
+            "12"
+          ],
+          "direction": "down",
+          "cars": {
+            "12": 6
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-echigoyuzawa"
+          ]
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "13",
+            "14"
+          ],
+          "direction": "up",
+          "cars": {
+            "12": 6.5
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-echigoyuzawa"
+          ],
+          "note": "6号車から7号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "urasa",
+      "name": "浦佐",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "11"
+          ],
+          "direction": "down",
+          "cars": {
+            "12": 9
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-urasa"
+          ]
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "12"
+          ],
+          "direction": "up",
+          "cars": {
+            "12": 7
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-urasa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nagaoka",
+      "name": "長岡",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "jreast-faq-smoking"
+          ],
+          "note": "JR東日本の公式FAQで新幹線ホーム等に排煙設備のある喫煙ルームがある駅とされています。ホーム上か改札内コンコースかを含め、場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "tsubamesanjo",
+      "name": "燕三条",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [
+            "11"
+          ],
+          "direction": "down",
+          "cars": {
+            "12": 4
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-tsubamesanjo"
+          ]
+        },
+        {
+          "kind": "platform",
+          "tracks": [
+            "12",
+            "13"
+          ],
+          "direction": "up",
+          "cars": {
+            "12": 4
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-tsubamesanjo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "niigata",
+      "name": "新潟",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "12": 8
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-niigata"
+          ],
+          "note": "8号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "annakaharuna",
+      "name": "安中榛名",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "jreast-faq-smoking"
+          ],
+          "note": "JR東日本の公式FAQで新幹線ホーム等に排煙設備のある喫煙ルームがある駅とされています。ホーム上か改札内コンコースかを含め、場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "karuizawa",
+      "name": "軽井沢",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "12": 6
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-karuizawa"
+          ],
+          "note": "上下ホームとも6号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "sakudaira",
+      "name": "佐久平",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "12": 6
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-sakudaira"
+          ],
+          "note": "上下ホームとも6号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "ueda",
+      "name": "上田",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "12": 8.5
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-ueda"
+          ],
+          "note": "上下ホームとも8号車または9号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "nagano",
+      "name": "長野",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "12": 4
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-nagano"
+          ],
+          "note": "上下ホームとも4号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "iiyama",
+      "name": "飯山",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "12": 10
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-iiyama"
+          ],
+          "note": "上下ホームとも10号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "joetsumyoko",
+      "name": "上越妙高",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "12": 9.5
+          },
+          "verification": "unverified",
+          "sources": [
+            "jreast-faq-smoking",
+            "wadattsu-joetsumyoko"
+          ],
+          "note": "上下ホームとも9号車または10号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "itoigawa",
+      "name": "糸魚川",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "12": 7
+          },
+          "verification": "unverified",
+          "sources": [
+            "wadattsu-itoigawa",
+            "westjr-odekake"
+          ],
+          "note": "上下ホームとも7号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "kurobeunazukionsen",
+      "name": "黒部宇奈月温泉",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "12": 6
+          },
+          "verification": "unverified",
+          "sources": [
+            "wadattsu-kurobeunazukionsen",
+            "westjr-odekake"
+          ],
+          "note": "上下ホームとも6号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "toyama",
+      "name": "富山",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "12": 11
+          },
+          "verification": "unverified",
+          "sources": [
+            "wadattsu-toyama",
+            "westjr-odekake"
+          ],
+          "note": "上下ホームとも11号車付近（金沢寄り）。"
+        }
+      ]
+    },
+    {
+      "id": "shintakaoka",
+      "name": "新高岡",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "12": 6
+          },
+          "verification": "unverified",
+          "sources": [
+            "wadattsu-shintakaoka",
+            "westjr-odekake"
+          ],
+          "note": "上下ホームとも6号車付近。"
+        }
+      ]
+    },
+    {
+      "id": "kanazawa",
+      "name": "金沢",
+      "rooms": [
+        {
+          "kind": "platform",
+          "tracks": [],
+          "direction": "both",
+          "cars": {
+            "12": 9
+          },
+          "verification": "conflict",
+          "sources": [
+            "wadattsu-kanazawa",
+            "ishikawa-kanazawa",
+            "westjr-odekake"
+          ],
+          "note": "9号車付近とする情報と、ホームの端（12号車寄り）とする情報があります。"
+        }
+      ]
+    },
+    {
+      "id": "komatsu",
+      "name": "小松",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "westjr-odekake"
+          ],
+          "note": "JR西日本の公式サイトで喫煙ルーム設置駅とされています。場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "kagaonsen",
+      "name": "加賀温泉",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "westjr-odekake"
+          ],
+          "note": "JR西日本の公式サイトで喫煙ルーム設置駅とされています。場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "awaraonsen",
+      "name": "芦原温泉",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "westjr-odekake"
+          ],
+          "note": "JR西日本の公式サイトで喫煙ルーム設置駅とされています。場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "fukui",
+      "name": "福井",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "westjr-odekake"
+          ],
+          "note": "JR西日本の公式サイトで喫煙ルーム設置駅とされています。場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "echizentakefu",
+      "name": "越前たけふ",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "westjr-odekake"
+          ],
+          "note": "JR西日本の公式サイトで喫煙ルーム設置駅とされています。場所・号車は未確認です。"
+        }
+      ]
+    },
+    {
+      "id": "tsuruga",
+      "name": "敦賀",
+      "rooms": [
+        {
+          "kind": "unknown",
+          "verification": "official",
+          "sources": [
+            "westjr-odekake"
+          ],
+          "note": "JR西日本の公式サイトで喫煙ルーム設置駅とされています。場所・号車は未確認です。"
         }
       ]
     }
