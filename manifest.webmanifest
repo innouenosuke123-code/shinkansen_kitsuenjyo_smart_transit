@@ -1,0 +1,14 @@
+{
+  "name": "喫煙所号車ナビ",
+  "short_name": "号車ナビ",
+  "description": "新幹線の乗車前・降車後に喫煙所へ近い号車を探す",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f8",
+  "theme_color": "#0f5c8c",
+  "lang": "ja",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
