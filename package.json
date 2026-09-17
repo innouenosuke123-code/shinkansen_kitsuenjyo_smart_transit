@@ -1,0 +1,11 @@
+{
+  "name": "shinkansen-kitsuenjyo-smart-transit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "新幹線の乗車前・降車後に喫煙所へ最短で行ける号車を探すPWA",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test"
+  }
+}
