@@ -32,6 +32,8 @@ async function init() {
   $("#data-updated").textContent = `データ更新日: ${data.meta.updatedAt}`;
   fillSelects();
   restoreForm();
+  // 路線を変えたら、その系統の駅だけに入れ替えてから再計算する（form の change より先に動く）
+  form.line.addEventListener("change", () => fillStationSelects(form.from.value, form.to.value));
   form.addEventListener("change", update);
   $("#swap").addEventListener("click", () => {
     [form.from.value, form.to.value] = [form.to.value, form.from.value];
@@ -49,28 +51,55 @@ async function init() {
 }
 
 function fillSelects() {
+  // 路線は直通でつながる系統（東海道・山陽・九州、東北・秋田など）ごとに選ぶ
+  form.line.innerHTML = Object.entries(data.routes)
+    .map(([id, r]) => `<option value="${esc(id)}">${esc(r.name)}</option>`)
+    .join("");
+  form.line.value = "tokaido-sanyo-kyushu";
+  fillStationSelects("tokyo", "shinosaka");
+  form.train.innerHTML = Object.entries(data.trains)
+    .map(([id, t]) => `<option value="${esc(id)}">${esc(t.name)}</option>`)
+    .join("");
+}
+
+/** 選んだ系統の駅だけを、系統の並び順（駅一覧と同じグループ分け）で出す */
+function fillStationSelects(fromId, toId) {
+  const route = data.routes[form.line.value];
+  const inRoute = new Set(route.stations);
   const options = data.lines
     .map((line) => {
       const opts = line.stations
+        .filter((id) => inRoute.has(id))
         .map(stationById)
         .map((s) => `<option value="${esc(s.id)}">${esc(s.name)}${s.rooms.length ? "" : "（情報なし）"}</option>`)
         .join("");
-      return `<optgroup label="${esc(line.name)}">${opts}</optgroup>`;
+      return opts ? `<optgroup label="${esc(line.name)}">${opts}</optgroup>` : "";
     })
     .join("");
   form.from.innerHTML = options;
   form.to.innerHTML = options;
-  form.from.value = "tokyo";
-  form.to.value = "shinosaka";
-  form.train.innerHTML = Object.entries(data.trains)
-    .map(([id, t]) => `<option value="${esc(id)}">${esc(t.name)}</option>`)
-    .join("");
+  form.from.value = inRoute.has(fromId) ? fromId : route.stations[0];
+  form.to.value = inRoute.has(toId) && toId !== form.from.value ? toId : farthestReachable(form.from.value);
+}
+
+/** 乗車駅から直通列車で行ける、いちばん遠い駅（路線を切り替えたときの初期値） */
+function farthestReachable(fromId) {
+  const route = data.routes[form.line.value];
+  const trains = Object.values(data.trains);
+  const reachable = route.stations.filter(
+    (id) => id !== fromId && trains.some((t) => trainServes(data, t, fromId, id)),
+  );
+  return reachable.at(-1) ?? route.stations.find((id) => id !== fromId);
 }
 
 function restoreForm() {
   try {
     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "null");
     if (!saved) return;
+    if (saved.line && data.routes[saved.line]) {
+      form.line.value = saved.line;
+      fillStationSelects(saved.from, saved.to);
+    }
     for (const name of ["from", "to", "train", "seat"]) {
       if (saved[name] && [...form[name].options].some((o) => o.value === saved[name])) form[name].value = saved[name];
     }
@@ -101,6 +130,7 @@ function route() {
 
 function update() {
   const state = {
+    line: form.line.value,
     from: form.from.value,
     to: form.to.value,
     train: form.train.value,
